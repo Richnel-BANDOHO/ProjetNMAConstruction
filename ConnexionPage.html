@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page de connexion</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div id="boxCentral">
+
+		<div id="boxInscrip">
+			<form>
+			     <input type="text" name="name" placeholder="Nom(s)"><br>
+			     <input type="text" name="LastName" placeholder="Prénom(s)"><br>
+			     <input type="date" name="" placeholder="Date de naissance"><br>
+			     <input type="password" name="Password" placeholder="Mot de passe"><br>
+			     <input type="password" name="PasswordVerif" placeholder="Verifier le mot de passe"><br>
+			     <input type="text" name="mail" placeholder="Adresse e-mail (ex: xxxx@yyy.zzz)">
+			     <br>
+			     <input type="text" name="num" placeholder="Num Tel (ex: 0X XXX XX XX)"><br>
+			     <select name="metier">
+			     	<option value="">Veuillez choisir votre metier</option>
+			     	<option value="">Carrelage</option>
+			     	<option value="">Electricien</option>
+			     	<option value="">Electromécanique</option>
+			     	<option value="">Maçonnerie</option>
+			     	<option value="">Menuiserie</option>
+					<option value="">Peinture</option>
+					<option value="">Plomberie</option>
+			     	<option value="">Soudure</option>
+			     	<option value="">Staferie</option>
+	     	
+			     	
+			     </select>
+			     <input type="submit" id="btnEnv" name="" value="Envoyer">
+
+			</form>
+
+		</div>
+
+		<div id="boxConnect">
+
+			<form>
+
+	             <div id="icon1"></div>
+
+	             <input type="text" name="" placeholder="E-mail">
+	             <input type="password" name="" placeholder="Mot de passe"><br><br>
+
+	
+	             <a href="">Mot de passe oublié?</a>
+
+	             <input type="submit" id="btnConnexion" value="Se connecter">
+
+			</form>
+
+		</div>
+	</div>
+
+
+
+
+<style type="text/css">
+
+	#boxCentral{
+		width: 700px;
+		height: 465px;
+		background-color: yellow;
+
+
+
+	}
+	#boxConnect{
+		position: absolute;
+		width: 350px;
+		height: 400px;
+		margin-left: 350px;
+		background-color: red;
+		border-radius: 0px 15px 15px 0px ;
+		padding-top: 65px;
+	}
+
+	body{
+		background: #CAFFF8;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 70px;
+	}
+	#boxInscrip{
+		position: absolute;
+		width: 350px;
+		height: 400px;
+		background-color: green;
+		border-radius: 15px 0px 0px 15px;
+		padding-top: 65px;
+
+	}
+	input{
+		
+		width: 250px;
+		height: 25px;
+		margin-bottom: 7px;
+		margin-left: 45px;
+		border-radius: 5px;
+		border:1px solid transparent;
+		outline:none;
+		padding-left:7px; 
+		font-size: 15px;
+	}
+	select{
+		width: 250px;
+		height: 25px;
+		margin-bottom: 7px;
+		margin-left: 45px;
+		border-radius: 5px;
+		border:1px solid transparent;
+		outline:none;
+		padding-left:7px; 
+		font-size: 15px;
+	}
+	a{
+		margin-left: 47px;
+		color: white;
+		text-decoration:  none;
+	}
+	#btnEnv{
+		width: 200px;
+		margin-top: 25px;
+		margin-left: 75px;
+		cursor: pointer;
+		background-color: transparent;
+		border: 1px solid white;
+		color: white;
+		border-radius: 250px;
+
+	}
+
+	#btnEnv:hover{
+		border-radius: 50px;
+		background-color: white;
+		color: #000;
+
+	}
+	#btnConnexion{
+		width: 200px;
+		margin-top: 30px;
+		margin-left: 75px;
+		cursor: pointer;
+		background-color: transparent;
+		border: 1px solid white;
+		color: white;
+		border-radius: 250px;
+
+	}
+	#btnConnexion:hover{
+		border-radius: 50px;
+		background-color: white;
+		color: #000;
+
+	}
+
+	#icon1{
+		width: 130px;
+		height: 130px;
+		margin-left: 110px;
+		margin-bottom: 40px;
+		background-color: white;
+		border-radius: 100%;
+	}
+
+
+</style>
+
+</body>
+</html>
